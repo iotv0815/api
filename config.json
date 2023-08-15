@@ -1,0 +1,35 @@
+{
+    "source": "https://github.com/iptv-org/api/blob/master/README.md",
+    
+    "api": { 
+        "get_contents": {
+            "method": "GET",
+            "url": "https://iptv-org.github.io/api/categories.json",
+            "headers": {
+                "Accept": "*/*",
+                "Content-type": "application/x-www-form-urlencoded"
+            },
+            "type": "category"
+        },
+
+        "channels": {
+            "method": "GET",
+            "url": "https://iptv-org.github.io/api/channels.json",
+            "headers": {
+                "Accept": "*/*",
+                "Content-type": "application/x-www-form-urlencoded"
+            },
+            "type": "channels"
+        },
+
+        "streams": {
+            "method": "GET",
+            "url": "https://iptv-org.github.io/api/streams.json",
+            "headers": {
+                "Accept": "*/*",
+                "Content-type": "application/x-www-form-urlencoded"
+            },
+            "type": "streams"
+        }
+    }
+}
